@@ -15,7 +15,7 @@ Gesta de transacoes:
 -Registar transacoes de venda de veiculos
 -Mostrar precos de compra e venda baseados no site VolanteSic e tambem na condicao geral do veiculo
 Gestao de clientes:
--Registar informacoes sobre os clientes que participam na compra e venda de veiculos
+-Registar informacoes sobre os clientes que participam na compra e venda de veiculos(nome completo,nif,email,numero de telemovel,codigo postal,cidade)
 -Visualizar o historico de transacoes(compra/venda) efetuadas por cada cliente
 Gestao de estatisticas:
 -Mostrar estatisticas(para ver a evolucao do negocio):
