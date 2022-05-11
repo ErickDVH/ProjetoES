@@ -1,4 +1,26 @@
 Requisitos:
 Gestao de veiculos:
-Registar informacoes(matrícula, marca, modelo, anterior dono, nº de
+-Registar informacoes(matrícula, marca, modelo, anterior dono, nº de
 donos, características do veículo)
+Gestao de pecas:
+-Registar armazenamento de pecas e consumiveis
+-Apresentar quantidade minima das pecas e consumiveis em stock por filia/sede(O numero minimo da sede dever ser maior do que o das filiais)
+-Fazer pedidos entre sedes e filiales
+-Registar local de armazenamento(sede, filiais)
+Gestao de eventos:
+-Registar eventos
+-Apresentar data inicio/fim de eventos com o respetivo nome do evento e numero de veiculos em exposicao(sede/filiais)
+Gesta de transacoes:
+-Registar transacoes de compra de veiculos
+-Registar transacoes de venda de veiculos
+-Mostrar precos de compra e venda baseados no site VolanteSic e tambem na condicao geral do veiculo
+Gestao de clientes:
+-Registar informacoes sobre os clientes que participam na compra e venda de veiculos
+-Visualizar o historico de transacoes(compra/venda) efetuadas por cada cliente
+Gestao de estatisticas:
+-Mostrar estatisticas(para ver a evolucao do negocio):
+*estatisticas das marcar e modelos mais vendidos ao longo do tempo no total e por filial
+*os melhores clientes
+*as melhores filiais e feiras
+*modelos e marcas que sofreram mais investimento a nivel de pecas e reparacoes
+*estatisticas dos ingresos gerados por mes
