@@ -24,3 +24,5 @@ Gestao de estatisticas:
 *as melhores filiais e feiras
 *modelos e marcas que sofreram mais investimento a nivel de pecas e reparacoes
 *estatisticas dos ingresos gerados por mes
+
+--Dizer quem e que fez o prototipo de cada janela
