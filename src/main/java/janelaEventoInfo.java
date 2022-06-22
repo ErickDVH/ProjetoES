@@ -1,8 +1,8 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 
-public class janelaClienteInfo extends JFrame{
-    private JPanel clienteInfo;
+public class janelaEventoInfo extends JFrame{
+    private JPanel eventoInfo;
     private JButton veiculoButton;
     private JButton transacaoButton;
     private JButton eventosButton;
@@ -13,19 +13,19 @@ public class janelaClienteInfo extends JFrame{
     private JLabel filial;
     private JButton alterarButton;
     private JButton recuarButton;
-    private JButton verHistoricoDeTransacoesButton;
-    private JButton verHistoricoDeReparacoesButton;
+    private JButton verVeiculosButton;
+    private JButton cancelarButton;
 
-    public janelaClienteInfo(){
-        setContentPane(clienteInfo);
+    public janelaEventoInfo(){
+        setContentPane(eventoInfo);
         pack();
         setVisible(true);
         recuarButton.addActionListener(this::recuarButton);
     }
 
     private void recuarButton(ActionEvent actionEvent) {
-        janelaClientes janelaClientes = new janelaClientes();
+        janelaEventos janelaEventos = new janelaEventos();
         this.setVisible(false);
-        janelaClientes.setVisible(true);
+        janelaEventos.setVisible(true);
     }
 }

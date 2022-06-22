@@ -8,14 +8,6 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="e28a1" class="javax.swing.JButton" binding="veiculoButton">
-        <constraints>
-          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Veiculos"/>
-        </properties>
-      </component>
       <hspacer id="2ea5a">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
@@ -155,6 +147,14 @@
         </constraints>
         <properties>
           <text value="Ver Historico de Reparacoes"/>
+        </properties>
+      </component>
+      <component id="e28a1" class="javax.swing.JButton" binding="veiculoButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Veiculos"/>
         </properties>
       </component>
     </children>
