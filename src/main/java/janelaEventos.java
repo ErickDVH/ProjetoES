@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
 
 public class janelaEventos extends JFrame{
@@ -13,7 +14,8 @@ public class janelaEventos extends JFrame{
     private JButton adicionarEventoButton;
     private JButton seleccionarButton;
     private JButton recuarButton;
-    private JLabel listaClientes;
+    private JList list1;
+
 
     public janelaEventos(){
         setContentPane(panelEventos);
@@ -22,6 +24,7 @@ public class janelaEventos extends JFrame{
         seleccionarButton.addActionListener(this::seleccionarButton);
         recuarButton.addActionListener(this::recuarButton);
         clientesButton.addActionListener(this::clientesButton);
+        list1.setModel(janelaAdicionarEvento.modelList());
     }
 
     private void clientesButton(ActionEvent event) {

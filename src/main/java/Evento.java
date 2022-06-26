@@ -13,4 +13,24 @@ public class Evento {
         this.numeroVeiculos = numeroVeiculos;
         this.local = local;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getInicioEvento() {
+        return inicioEvento;
+    }
+
+    public String getFimEvento() {
+        return fimEvento;
+    }
+
+    public String getLocal() {
+        return local;
+    }
+
+    public String getNumeroVeiculos() {
+        return numeroVeiculos;
+    }
 }

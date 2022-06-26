@@ -13,7 +13,7 @@ public class janelaClientes extends JFrame{
     private JButton seleccionarButton;
     private JButton recuarButton;
     private JPanel panelClientes;
-    private JLabel listaClientes;
+    private JList list1;
 
     public janelaClientes(){
         setContentPane(panelClientes);
@@ -22,6 +22,7 @@ public class janelaClientes extends JFrame{
         seleccionarButton.addActionListener(this::seleccionarButton);
         recuarButton.addActionListener(this::recuarButton);
         eventosButton.addActionListener(this::eventosButton);
+        list1.setModel(janelaAdicionarCliente.modelList());
     }
 
     private void eventosButton(ActionEvent event) {

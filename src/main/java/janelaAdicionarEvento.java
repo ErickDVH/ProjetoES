@@ -1,5 +1,7 @@
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 import java.awt.event.ActionEvent;
+import java.util.LinkedList;
 
 public class janelaAdicionarEvento extends JFrame{
     private JPanel panelAdicionar;
@@ -32,7 +34,9 @@ public class janelaAdicionarEvento extends JFrame{
         setVisible(true);
         recuarButton.addActionListener(this::recuarButton);
         criarButton.addActionListener(this::btnAdicionarEventoActionPerformed);
+
     }
+
     private void btnAdicionarEventoActionPerformed(ActionEvent event){
         janelaEventos janelaEventos = new janelaEventos();
         this.setVisible(false);
@@ -62,9 +66,13 @@ public class janelaAdicionarEvento extends JFrame{
             Erros.mostrarErro(this,Erros.LOCAL_INVALIDO);
             return;
         }
-
         dispose();
 
+    }
+    public static DefaultListModel modelList(){
+        DefaultListModel model = new DefaultListModel<>();
+        model.addElement("Nome: Evento1, HoraInicio: 9h, HoraFim: 12h, NumeroVeiculos:30, Local: Leiria");
+        return model;
     }
     private void recuarButton(ActionEvent actionEvent) {
         janelaEventos janelaEventos = new janelaEventos();

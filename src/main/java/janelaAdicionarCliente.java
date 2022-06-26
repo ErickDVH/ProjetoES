@@ -71,6 +71,11 @@ public class janelaAdicionarCliente extends JFrame{
 
         dispose();
     }
+    public static DefaultListModel modelList(){
+        DefaultListModel model = new DefaultListModel<>();
+        model.addElement("Nome: Dario, Nif:829594939, Contacto: 912286782, Email: dario@hotmail.com, Morada:Leiria ");
+        return model;
+    }
     private boolean isNomeValido(String nome){
         if(textFieldNome.getText().equals(nome)){
             return true;

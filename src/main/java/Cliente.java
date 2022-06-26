@@ -13,4 +13,24 @@ public class Cliente {
         this.email = email;
         this.morada = morada;
     }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public String getNif() {
+        return nif;
+    }
+
+    public String getContacto() {
+        return contacto;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getMorada() {
+        return morada;
+    }
 }
